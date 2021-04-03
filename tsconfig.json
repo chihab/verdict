@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@versem/core": ["packages/core"],
+      "@versem/cli": ["packages/cli"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

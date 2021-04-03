@@ -1,0 +1,14 @@
+{
+  "name": "@versem/cli",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn tsc -w",
+    "build": "yarn tsc"
+  },
+  "dependencies": {
+    "@types/yargs": "^16.0.1",
+    "yargs": "^16.2.0"
+  }
+}
