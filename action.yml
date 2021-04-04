@@ -14,4 +14,4 @@ outputs:
     description: "The output to log in action"
 runs:
   using: "node12"
-  main: "./packages/action/dist/index.js"
+  main: "./packages/action/build/index.js"
