@@ -1,0 +1,17 @@
+name: "VerSem"
+description: "VerSem"
+inputs:
+  project:
+    description: "Project"
+    required: true
+    default: "angular"
+  version:
+    description: "Version"
+    required: true
+    default: "8.1.x"
+outputs:
+  log:
+    description: "The output to log in action"
+runs:
+  using: "node12"
+  main: "./packages/action/dist/index.js"
