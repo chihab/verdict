@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "ncc build index.js --license licenses.txt"
+    "build": "ncc build index.js --license licenses.txt -o build"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
