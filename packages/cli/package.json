@@ -1,6 +1,6 @@
 {
   "name": "@versem/cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "bin": {
     "versem": "build/index.js"
@@ -14,8 +14,8 @@
     "bundle": "ncc build dist/index.js --license licenses.txt -o build"
   },
   "dependencies": {
-    "@versem/angular": "^0.0.0",
-    "@versem/core": "^0.0.0",
+    "@versem/angular": "^0.1.0",
+    "@versem/core": "^0.1.0",
     "yargs": "^16.2.0"
   },
   "devDependencies": {
