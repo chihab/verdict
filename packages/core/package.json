@@ -1,10 +1,13 @@
 {
   "name": "@versem/core",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "watch": "yarn tsc -w",
-    "build": "yarn tsc"
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "json": "^10.0.0"
   }
 }

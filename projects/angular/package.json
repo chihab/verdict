@@ -1,10 +1,20 @@
 {
   "name": "@versem/angular",
-  "version": "1.0.0",
-  "main": "dist/index.js",
+  "version": "0.0.0",
+  "main": "build/index.js",
   "license": "MIT",
   "scripts": {
-    "watch": "yarn tsc -w",
-    "build": "yarn tsc"
+    "watch": "tsc -w",
+    "build": "tsc",
+    "bundle": "ncc build dist/index.js --minify --license licenses.txt -o build"
+  },
+  "dependencies": {
+    "@versem/core": "*",
+    "lodash-es": "^4.17.21",
+    "object.fromentries": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.4",
+    "@types/object.fromentries": "^2.0.0"
   }
 }

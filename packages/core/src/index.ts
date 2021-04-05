@@ -1,3 +1,2 @@
-export function updateJson() {
-  console.log("Updating JSON");
-}
+export * from "./delete-path-alias";
+export * from "./update-module";

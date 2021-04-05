@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "target": "es2015",
+    "target": "es2017",
     "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2017"],
     "strict": true,
     "baseUrl": "./",
     "paths": {
       "@versem/core": ["packages/core"],
-      "@versem/cli": ["packages/cli"]
+      "@versem/cli": ["packages/cli"],
+      "@versem/angular": ["projects/angular"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,
