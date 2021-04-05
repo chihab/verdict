@@ -1,6 +1,6 @@
 {
   "name": "@versem/angular",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
     "bundle": "ncc build dist/index.js --minify --license licenses.txt -o build"
   },
   "dependencies": {
-    "@versem/core": "*",
+    "@versem/core": "^0.2.0",
     "lodash-es": "^4.17.21",
     "object.fromentries": "^2.0.4"
   },
