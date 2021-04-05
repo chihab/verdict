@@ -1,6 +1,6 @@
 {
   "name": "@versem/core",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -12,5 +12,6 @@
   },
   "dependencies": {
     "json": "^10.0.0"
-  }
+  },
+  "gitHead": "d22a37b47ceabe9f8cab08e66027689851b80f11"
 }
