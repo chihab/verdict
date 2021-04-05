@@ -5,6 +5,9 @@
   "bin": {
     "versem": "build/index.js"
   },
+  "files": [
+    "build/index.js"
+  ],
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",

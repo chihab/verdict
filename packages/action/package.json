@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "main": "build/index.js",
   "license": "MIT",
+  "private": "true",
   "scripts": {
     "build": "ncc build index.js --license licenses.txt -o build"
   },

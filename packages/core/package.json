@@ -2,6 +2,9 @@
   "name": "@versem/core",
   "version": "0.2.0",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "scripts": {
     "watch": "tsc -w",
