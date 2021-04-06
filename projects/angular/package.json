@@ -1,19 +1,18 @@
 {
-  "name": "@versem/angular",
-  "version": "0.1.0",
-  "main": "build/index.js",
+  "name": "@verdict/angular",
+  "version": "0.0.0",
+  "main": "dist/index.js",
   "license": "MIT",
   "files": [
-    "build",
+    "dist",
     "README.md"
   ],
   "scripts": {
-    "watch": "tsc -w",
-    "build": "tsc",
-    "bundle": "ncc build dist/index.js --minify --license licenses.txt -o build"
+    "watch": "ncc build -w src/index.ts",
+    "build": "ncc build src/index.ts -o dist"
   },
   "dependencies": {
-    "@versem/core": "^0.1.0",
+    "@verdict/core": "^0.1.0",
     "lodash-es": "^4.17.21",
     "object.fromentries": "^2.0.4"
   },

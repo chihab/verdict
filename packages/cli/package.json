@@ -1,21 +1,20 @@
 {
-  "name": "@versem/cli",
-  "version": "0.1.1",
+  "name": "@verdict/cli",
+  "version": "0.0.0",
   "license": "MIT",
   "bin": {
-    "versem": "build/index.js"
+    "verdict": "dist/index.js"
   },
   "files": [
-    "build/index.js"
+    "dist/index.js"
   ],
   "scripts": {
-    "watch": "tsc -w",
-    "build": "tsc",
-    "bundle": "ncc build dist/index.js --license licenses.txt -o build"
+    "watch": "ncc build -w src/index.ts",
+    "build": "ncc build src/index.ts -o dist"
   },
   "dependencies": {
-    "@versem/angular": "^0.1.0",
-    "@versem/core": "^0.1.0",
+    "@verdict/angular": "^0.1.0",
+    "@verdict/core": "^0.1.0",
     "yargs": "^16.2.0"
   },
   "devDependencies": {

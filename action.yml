@@ -1,11 +1,11 @@
-name: "VerSem"
-description: "VerSem"
+name: "verdict"
+description: "verdict"
 inputs:
   project:
     description: "Project"
     required: true
     default: "angular"
-  version:
+  target:
     description: "Version"
     required: true
     default: "8.1.x"
@@ -14,4 +14,4 @@ outputs:
     description: "The output to log in action"
 runs:
   using: "node12"
-  main: "./packages/action/build/index.js"
+  main: "./packages/action/dist/index.js"

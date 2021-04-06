@@ -1,19 +1,19 @@
 # Basic Usage
 
 ```bash
-npx versem -p angular --target 10.1.x
+npx verdict -p angular --target 10.1.x
 npm install # after rm -rf node_modules in some cases
 npm run build core --prod
 ```
 
-If you use the [Github Action](github-action), it will call VerSem for each matrix entry.
+If you use the [Github Action](github-action), it will call verdict for each matrix entry.
 
-# VerSem Hook
+# verdict Hook
 
-You might need to do custom updates before and afer VerSem run
+You might need to do custom updates before and afer verdict run
 
 ```
-npx versem -p angular --target 10.1.x --plugin tools/index.js
+npx verdict -p angular --target 10.1.x --plugin tools/index.js
 ```
 
 ```js index.js
@@ -30,7 +30,7 @@ module.exports = {
 # Github Action
 
 ```
-npx versem -p angular action
+npx verdict -p angular action
 ```
 
 ```yml
@@ -76,7 +76,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Use Angular version ${{ matrix.angular-version }}
-        uses: versem/angular-action@v3
+        uses: verdict/angular-action@v3
         with:
           angular-version: ${{ matrix.angular-version }}
 

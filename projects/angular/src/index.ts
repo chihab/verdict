@@ -3,7 +3,7 @@ import * as fs from "fs";
 import { getAngularVersions } from "./utils/get-angular-versions";
 import { overrideAngularVersions } from "./utils/override-angular-versions";
 import { PackageJsonVersion } from "./utils/types/package-json-version";
-import { deletePathAlias, updateTsModule } from "@versem/core";
+import { deletePathAlias, updateTsModule } from "@verdict/core";
 
 function updatePackageJson(
   filePath: string,

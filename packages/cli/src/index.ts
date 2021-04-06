@@ -24,7 +24,7 @@ yargs(hideBin(process.argv))
     (argv) => {
       const target: string = argv.target as string;
       const project: string = argv.project as string;
-      import(`@versem/${project}`).then((m) => m.run(target));
+      import(`@verdict/${project}`).then((m) => m.run(target));
     }
   )
   .help()

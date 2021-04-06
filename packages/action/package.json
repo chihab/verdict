@@ -1,17 +1,15 @@
 {
-  "name": "@versem/action",
-  "version": "0.1.0",
-  "main": "build/index.js",
+  "name": "@verdict/action",
+  "version": "0.0.0",
+  "main": "dist/index.js",
   "license": "MIT",
   "private": "true",
   "scripts": {
-    "build": "ncc build index.js --license licenses.txt -o build"
+    "watch": "ncc build -w src/index.ts",
+    "build": "ncc build src/index.ts --license licenses.txt -o dist"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.27.0"
   }
 }

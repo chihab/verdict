@@ -8,9 +8,9 @@
     "strict": true,
     "baseUrl": "./",
     "paths": {
-      "@versem/core": ["packages/core"],
-      "@versem/cli": ["packages/cli"],
-      "@versem/angular": ["projects/angular"]
+      "@verdict/core": ["packages/core"],
+      "@verdict/cli": ["packages/cli"],
+      "@verdict/angular": ["projects/angular"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,
